@@ -1,0 +1,46 @@
+body{
+    font-family: 'Alata', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 80vh;
+    width: 70vh;
+    margin: 5vh auto;
+    padding: 3rem;
+    border: 2px solid black;
+    border-radius: 2em;
+    background: rgba(226,226,226,1);
+    background: -moz-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 19%, rgba(254,254,254,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 19%, rgba(254,254,254,1) 100%);
+    background: -o-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 19%, rgba(254,254,254,1) 100%);
+    background: -ms-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 19%, rgba(254,254,254,1) 100%);
+    background: linear-gradient(to right, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 19%, rgba(254,254,254,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=1 );
+}
+
+#map{
+    width: 30vw;
+    height: 40vh;
+    border: 1px solid black;
+}
+#travelButton{
+    border-radius: 2em;
+    border: 1px solid black;
+    margin: 2em;
+    padding: 1em;
+    cursor: pointer;
+}
+
+#travelButton:focus{
+    outline: none;
+}
+
+#infoMessage{
+    font-size: 2em;
+    padding: 1em;
+    color: #2816ca;
+}
+#geoHash{
+    padding: 1em;
+}
